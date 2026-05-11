@@ -26,7 +26,7 @@ export default function HeadwayAccount() {
         <SectionHeader
           number="02"
           kicker="The Account"
-          title="The Cursor Account"
+          title="The Affirm Account"
         />
 
         {/* Lead paragraph + sidebar facts */}
@@ -42,15 +42,15 @@ export default function HeadwayAccount() {
               variants={reveal}
               className="text-xl md:text-[1.4rem] leading-[1.55] text-ink/85"
             >
-              Cursor is the AI-native code editor used by more than half
-              the Fortune 500. Founded in 2022 by four MIT engineers,
-              the company hit $2 billion ARR in February 2026, faster
-              than any B2B software company has ever gotten there.
-              Around 50 employees, based in San Francisco. They're
-              closing a $2 billion round at a $50 billion valuation
-              right now, and in April they signed a partnership with
-              SpaceX that gives SpaceX the option to buy them outright
-              for $60 billion later this year.
+              Affirm is a public BNPL lender on NASDAQ with about 2,400
+              employees and more than 800 engineers. In February 2026
+              they paused engineering for a full week to retool the org
+              around agentic AI. They picked Claude Code as the default
+              agent, not Copilot. Four months later their PRs went from
+              roughly zero agent-assist to more than 60 percent. The
+              gains broke their CI, scattered their docs, and left a
+              regulated lender with no unified audit trail over
+              AI-generated code.
             </motion.p>
           </motion.div>
 
@@ -62,16 +62,16 @@ export default function HeadwayAccount() {
             transition={{ duration: 0.9, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
             className="lg:col-span-4 lg:col-start-9 lg:border-l lg:border-ink/15 lg:pl-8 space-y-8"
           >
-            <FactRow label="Stage" value="$2B round in talks at $50B valuation (April 2026)" />
+            <FactRow label="Stage" value="Public, NASDAQ: AFRM (IPO Jan 2021)" />
             <FactRow label="HQ" value="San Francisco, CA" />
-            <FactRow label="CEO" value="Michael Truell (Co-Founder)" />
-            <FactRow label="Scale" value="~50 employees, $2B ARR" />
-            <FactRow label="Customers" value="NVIDIA, Uber, Adobe, 50%+ of Fortune 500" />
-            <FactRow label="AI moment" value="SpaceX/xAI partnership. Up to $60B." />
+            <FactRow label="CEO" value="Max Levchin (Co-Founder)" />
+            <FactRow label="Scale" value="~2,400 employees, 800+ engineers" />
+            <FactRow label="Merchants" value="Amazon, Shopify, Walmart, Target" />
+            <FactRow label="AI moment" value="60%+ of PRs now agent-written. April 2026." />
           </motion.aside>
         </div>
 
-        {/* The Cursor x SpaceX moment - full visual callout */}
+        {/* The Affirm AI retool moment - full visual callout */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -83,10 +83,10 @@ export default function HeadwayAccount() {
             {/* Decorative date stamp - inline on mobile, absolute on md+ */}
             <div className="md:absolute md:top-10 md:right-10 md:text-right pt-6 md:pt-0 px-6 md:px-0 flex items-baseline md:items-end gap-3 md:gap-0 md:flex-col">
               <div className="text-[10px] font-mono uppercase tracking-[0.22em] sm:tracking-[0.25em] text-ink/50 md:mb-1 whitespace-nowrap">
-                Cursor × SpaceX
+                Affirm Engineering
               </div>
               <div className="font-pixel font-bold text-2xl sm:text-3xl md:text-4xl text-ink tabular tracking-[0.04em]">
-                04 / 21 / 2026
+                04 / 2026
               </div>
             </div>
 
@@ -95,14 +95,15 @@ export default function HeadwayAccount() {
                 The story right now
               </div>
               <p className="text-xl md:text-2xl text-ink/90 leading-[1.5] max-w-3xl">
-                On April 21, 2026, Cursor announced a partnership with
-                SpaceX. SpaceX has the right to acquire Cursor for $60
-                billion later this year, or pay $10 billion for the work
-                they're doing together. Four days earlier, Cursor was
-                reported in talks for a $2 billion round at a $50
-                billion valuation, co-led by Andreessen Horowitz and
-                Thrive Capital with Nvidia participating. Both events
-                landed inside one week.
+                In April 2026, Daniel Martin, Affirm's Sr. Director of
+                Engineering for Developer Productivity, published the
+                post-mortem on Medium. Two admissions matter for an
+                outbound rep. First, their docs and specs live on
+                multiple platforms with inconsistent MCP coverage, and
+                engineers bridge the gaps by hand. Second, agents now
+                submit PRs faster than Buildkite can clear its queue,
+                so their CI is the new bottleneck. Both are platform
+                problems, not model problems.
               </p>
             </div>
           </div>
@@ -123,13 +124,14 @@ export default function HeadwayAccount() {
           </div>
           <div className="lg:col-span-10">
             <p className="text-xl md:text-2xl leading-[1.55] text-ink/90 max-w-4xl">
-              They just posted their first Data Scientist (Growth) role.
-              The listing literally calls it "early member of the data
-              science team" and names Growth, Enterprise, Finance, and
-              Product as the teams this person will work with. My read:
-              between the SpaceX partnership team and two fresh investor
-              groups coming in, whoever takes that job walks into more
-              questions than the company has ever had to answer.
+              Affirm is a regulated public lender under CFPB and state
+              scrutiny. SOX, PCI-DSS, and state lending licenses already
+              demand an audit on every change. Now 60 percent of their
+              code changes are written by an agent. My read: the
+              February decision was the right one, but the wrappers
+              around it are the wrong ones. They need a platform that
+              keeps Claude, replaces Buildkite, unifies the docs, and
+              gives a regulator one place to look.
             </p>
           </div>
         </motion.div>

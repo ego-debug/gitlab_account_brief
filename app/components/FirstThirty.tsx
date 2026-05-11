@@ -6,7 +6,7 @@ import SectionHeader from "./SectionHeader";
 const PRIORITIES = [
   {
     num: "01",
-    body: "Memorize the Hex pitch during training. Earn team sign-off before going live to buyers. Three surfaces, the Claude Connector story, and how Context Studio answers the hallucination objection.",
+    body: "Memorize the GitLab pitch during training. Earn team sign-off before going live to buyers. Duo Agent Platform, the AI Gateway and Bedrock/Vertex story, and how the audit trail answers the regulator objection.",
   },
   {
     num: "02",
@@ -14,7 +14,7 @@ const PRIORITIES = [
   },
   {
     num: "03",
-    body: "Once training wraps, get on the phones. Run my first owned sequence anchored on the Claude Connector launch and tested against accounts shaped like Cursor.",
+    body: "Once training wraps, get on the phones. Run my first owned sequence anchored on Duo Agent Platform GA and tested against accounts shaped like Affirm. Regulated, Claude-pilled, stuck on a non-platform CI vendor.",
   },
   {
     num: "04",

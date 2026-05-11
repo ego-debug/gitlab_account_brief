@@ -9,24 +9,24 @@ type Block =
   | { kind: "sig"; text: string };
 
 const BLOCKS: Block[] = [
-  { kind: "p", text: "Hi [first name]," },
+  { kind: "p", text: "Hi Daniel," },
   {
     kind: "p",
-    text: "Saw the SpaceX news and the Data Scientist (Growth) posting in the same week. Congrats on both.",
+    text: "Read the April write-up on the one-week retool. Picking Claude over Copilot was the right call. The honest part about Buildkite queues and inconsistent MCP coverage is the part most leaders would have left out.",
   },
   {
     kind: "p",
-    text: "Most early data hires at companies your speed spend month one building infrastructure (pipelines, dashboards, governance) instead of doing the actual analysis you hired them for. Hex skips that build. Notebooks for the analyst, Threads so product, growth, and finance can self-serve, Context Studio to keep the AI honest against your warehouse. Your hire is useful in week one, not month four.",
+    text: "Companies in your spot usually find the same three things in the second quarter of agent rollout. The CI vendor becomes the ceiling once PR throughput climbs past 60 percent. The doc surface fragments because every team picks a different MCP-friendly tool. And the audit story for AI-generated code does not exist yet, which a regulator will eventually ask about.",
   },
   {
     kind: "p",
-    text: "We just shipped a Claude Connector on March 3. Same Threads experience, now native to Claude. Your engineers already live in Claude, so they can ask data questions without ever opening hex.tech.",
+    text: "GitLab Duo Agent Platform GA'd in January 2026. You keep Claude Code, route it through our AI Gateway (Bedrock or self-hosted), and run GitLab CI runners that scale with the agent load. Built-in SAST, DAST, dependency, secret, and container scanning. Every agent action lands in one audit trail. Carrefour consolidated this way and cut $350K a year while halving time-to-market.",
   },
   {
     kind: "p",
-    text: "Worth 15 minutes next week to dig into what an incoming data scientist's first 30 days could look like with Hex?",
+    text: "Worth 15 minutes next week to compare your Buildkite queue numbers and doc surface against what we would put on the table?",
   },
-  { kind: "sig", text: "Jovan Marrero, Hex" },
+  { kind: "sig", text: "Jovan Marrero, GitLab" },
 ];
 
 export default function Email() {
@@ -54,14 +54,14 @@ export default function Email() {
         <SectionHeader
           number="05"
           kicker="The first email"
-          title="Sample Email: Cursor Growth Lead"
+          title="Sample Email: Daniel Martin, Affirm"
         />
 
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center gap-3 mb-5 sm:mb-6">
             <span className="h-px w-6 sm:w-8 bg-accent/60" />
             <p className="text-[10px] sm:text-xs font-mono uppercase tracking-[0.2em] text-ink/60">
-              What I'd send on day one once I'm at Hex
+              What I'd send on day one once I'm at GitLab
             </p>
           </div>
           {/* Email client mock */}
@@ -94,7 +94,7 @@ export default function Email() {
                     <>
                       Jovan Marrero{" "}
                       <span className="text-ink/45">
-                        &lt;jovan.marrero@hex.tech&gt;
+                        &lt;jovan.marrero@gitlab.com&gt;
                       </span>
                     </>
                   }
@@ -103,7 +103,7 @@ export default function Email() {
                   label="To"
                   value={
                     <>
-                      Cursor Co-Founder (Growth){" "}
+                      Daniel Martin, Affirm{" "}
                       <span className="text-ink/45">
                         &lt;[confirmed before send]&gt;
                       </span>
@@ -114,7 +114,7 @@ export default function Email() {
                   label="Subject"
                   value={
                     <span className="font-medium">
-                      Your incoming data scientist's first 30 days
+                      About that April post. The Buildkite part.
                     </span>
                   }
                 />

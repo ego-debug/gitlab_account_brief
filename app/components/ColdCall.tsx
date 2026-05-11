@@ -14,8 +14,8 @@ const STAGES = [
     body: (
       <>
         <p>
-          Hey [first name], congrats on the SpaceX deal. This is Jovan
-          from Hex.
+          Hey Daniel, congrats on the April write-up. This is Jovan
+          from GitLab.
         </p>
         <p className="mt-5">
           This is a cold call. Want to give me 30 seconds, or should I
@@ -31,20 +31,21 @@ const STAGES = [
     body: (
       <>
         <p>
-          You posted Data Scientist (Growth) a few weeks back. Most
-          early data hires at companies your speed spend month one
-          building pipelines and dashboards instead of doing the actual
-          analysis you hired them for.
+          You wrote that agents are now submitting PRs faster than
+          Buildkite can clear them, and that your docs sit on multiple
+          platforms with inconsistent MCP coverage. Most regulated
+          companies that retool around agentic AI hit that exact wall
+          a quarter in.
         </p>
         <p className="mt-5">
-          Hex skips that build. Notebooks for the analyst. Threads so
-          product, growth, and finance can self-serve. Context Studio
-          so the AI doesn't hallucinate against your warehouse.
+          GitLab Duo Agent Platform sits over your existing repo and
+          replaces Buildkite with runners that scale with the agents.
+          You keep Claude Code, route it through our AI Gateway, and
+          every agent action lands in one audit trail.
         </p>
         <p className="mt-5">
-          We shipped a Claude Connector March 3. Your engineers already
-          live in Claude, so they can ask data questions without ever
-          opening hex.tech.
+          You do not have to redo February. The platform is the
+          wrapper, not the model.
         </p>
       </>
     ),
@@ -55,7 +56,7 @@ const STAGES = [
     duration: "≈ 4 sec",
     body: (
       <p className="font-pixel font-bold text-3xl md:text-5xl leading-[1.1] tracking-[0.02em] uppercase">
-        What's the first metric you actually want this hire to own?
+        Which hurts more right now, the Buildkite queue or the doc gaps?
       </p>
     ),
   },
@@ -79,7 +80,7 @@ export default function ColdCall() {
         <SectionHeader
           number="04"
           kicker="The cold call"
-          title="Sample Call: Cursor Growth Lead"
+          title="Sample Call: Daniel Martin, Affirm"
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12">
@@ -138,10 +139,10 @@ export default function ColdCall() {
                   Calling
                 </div>
                 <div className="font-pixel font-bold text-xl sm:text-2xl text-ink tracking-[0.02em] truncate">
-                  Cursor Co-Founder (Growth &amp; Operations)
+                  Daniel Martin, Affirm
                 </div>
                 <div className="text-xs sm:text-sm text-ink/55">
-                  Hiring manager for the open Data Scientist role
+                  Sr. Director of Engineering, Developer Productivity
                 </div>
               </div>
 

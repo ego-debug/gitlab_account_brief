@@ -39,9 +39,9 @@ export default function WhyMe() {
               <p className="text-lg md:text-xl leading-[1.7] text-ink/85">
                 I've shipped two SaaS products solo. Two years of being
                 the only engineer when the work needed three. I know
-                what it's like to need a data answer fast and not have
-                an analyst to ask, which is exactly the seat Hex is
-                building for.
+                what it feels like when CI is the ceiling, when the
+                docs are scattered, and when one bad commit has no
+                audit trail. That is the seat your customer sits in.
               </p>
             </Block>
 
@@ -49,20 +49,21 @@ export default function WhyMe() {
               <p className="text-lg md:text-xl leading-[1.7] text-ink/85">
                 I started running outbound this week. Halal restaurants
                 and masjids in South Jersey and Philly. The same kind
-                of calls I'd be making for Hex.
+                of calls I'd be making for GitLab.
               </p>
             </Block>
 
-            <Block num="04" title="Why Hex">
+            <Block num="04" title="Why GitLab">
               <p className="text-lg md:text-xl leading-[1.7] text-ink/85">
-                Hex is the SDR role I want. On March 3 you shipped a
-                Claude Connector. I research, draft, and structure my
-                work inside Claude every day, including this artifact,
-                the Cursor research, the call, the email. I'm the user
-                persona you're now shipping to. I want to earn this
-                role, earn the AE seat, and build a career here. I
-                bring builder instincts, conviction, and consistency.
-                I'm coachable, I take feedback, and I show up.
+                GitLab is the SDR role I want. Duo Agent Platform GA'd
+                in January and the AWS Bedrock and Vertex AI
+                collaborations landed this year. I research, draft, and
+                structure my work inside Claude every day, including
+                this artifact, the Affirm research, the call, the
+                email. The conversation I'd be having with Daniel is
+                one I already understand. I want to earn this role,
+                earn the AE seat, and build a career here. I'm
+                coachable, I take feedback, and I show up.
               </p>
             </Block>
           </motion.article>

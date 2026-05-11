@@ -20,22 +20,22 @@ const baseUrl = process.env.VERCEL_URL
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: "Cursor. Account Brief by Jovan Marrero",
+  title: "Affirm. Account Brief by Jovan Marrero",
   description:
-    "A custom research brief on Cursor, prepared for Hex by Jovan Marrero.",
+    "A custom research brief on Affirm, prepared for GitLab by Jovan Marrero.",
   authors: [{ name: "Jovan Marrero" }],
   openGraph: {
-    title: "Cursor. Account Brief by Jovan Marrero",
+    title: "Affirm. Account Brief by Jovan Marrero",
     description:
-      "A custom research brief on Cursor, prepared for Hex by Jovan Marrero.",
+      "A custom research brief on Affirm, prepared for GitLab by Jovan Marrero.",
     type: "article",
-    siteName: "Cursor Account Brief",
+    siteName: "Affirm Account Brief",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cursor. Account Brief by Jovan Marrero",
+    title: "Affirm. Account Brief by Jovan Marrero",
     description:
-      "A custom research brief on Cursor, prepared for Hex by Jovan Marrero.",
+      "A custom research brief on Affirm, prepared for GitLab by Jovan Marrero.",
   },
   robots: { index: false, follow: false },
 };

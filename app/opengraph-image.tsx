@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Cursor. Account Brief by Jovan Marrero";
+export const alt = "Affirm. Account Brief by Jovan Marrero";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -50,7 +50,7 @@ export default async function OGImage() {
           }}
         >
           <span>Doc 01 / Account Brief</span>
-          <span>For Hex</span>
+          <span>For GitLab</span>
         </div>
 
         {/* Center title block */}
@@ -77,7 +77,7 @@ export default async function OGImage() {
             }}
           >
             <span style={{ width: 40, height: 1, background: "#BFB39E" }} />
-            <span>A custom brief on a real Hex ICP</span>
+            <span>A custom brief on a real GitLab ICP</span>
             <span style={{ width: 40, height: 1, background: "#BFB39E" }} />
           </div>
           <div
@@ -88,7 +88,7 @@ export default async function OGImage() {
               fontWeight: 700,
             }}
           >
-            CURSOR
+            AFFIRM
           </div>
           <div
             style={{

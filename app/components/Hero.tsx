@@ -22,7 +22,7 @@ export default function Hero() {
           style={{ animationDelay: "0.1s" }}
         >
           <span className="w-5 sm:w-8 h-px bg-accent flex-shrink-0" />
-          <span>A real qualified lead for Hex</span>
+          <span>A real qualified lead for GitLab</span>
           <span className="w-5 sm:w-8 h-px bg-accent flex-shrink-0" />
         </div>
 
@@ -30,7 +30,7 @@ export default function Hero() {
           className="font-pixel font-bold text-[19vw] sm:text-[14vw] md:text-[13vw] lg:text-[12vw] leading-[0.95] tracking-[0.01em] text-ink animate-slide-up"
           style={{ animationDelay: "0.2s" }}
         >
-          Cursor
+          Affirm
         </h1>
 
         <div
@@ -45,7 +45,7 @@ export default function Hero() {
           style={{ animationDelay: "0.5s" }}
         >
           <p className="text-base md:text-lg leading-relaxed text-ink/75 mx-auto px-2">
-            A working document on Cursor, the account I'd lead with on
+            A working document on Affirm, the account I'd lead with on
             day one and how I'd start the conversation.
           </p>
         </div>

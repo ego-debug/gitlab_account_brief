@@ -20,7 +20,7 @@ const BLOCKS: Block[] = [
   },
   {
     kind: "p",
-    text: "GitLab Duo Agent Platform GA'd in January 2026. You keep Claude Code, route it through our AI Gateway (Bedrock or self-hosted), and run GitLab CI runners that scale with the agent load. Built-in SAST, DAST, dependency, secret, and container scanning. Every agent action lands in one audit trail. Carrefour consolidated this way and cut $350K a year while halving time-to-market.",
+    text: "GitLab Duo Agent Platform GA'd in January 2026. You keep Claude Code, route it through our AI Gateway (Bedrock or self-hosted), and run GitLab CI runners that scale with the agent load. Native security scanning lands in the same audit trail every agent action does. Carrefour consolidated this way and cut $350K a year while halving time-to-market.",
   },
   {
     kind: "p",

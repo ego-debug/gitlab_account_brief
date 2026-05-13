@@ -145,8 +145,8 @@ export default function Portfolio() {
               Building these taught me what shipping without an
               analyst on standby feels like. Half-baked dashboards,
               gut decisions, questions I couldn't answer fast enough.
-              That's the pain Hex solves. Now I want to be the one
-              selling the fix.
+              That's the pain GitLab's buyer lives in. Now I want
+              to be the rep helping them out of it.
             </p>
           </div>
         </motion.div>

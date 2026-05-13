@@ -27,7 +27,8 @@ export default function WhyMe() {
           >
             <Block num="01" title="Operations Background">
               <p className="text-lg md:text-xl leading-[1.7] text-ink/85">
-                Six years of customer-facing operations. Night shift
+                Six years of jobs where the day ran longer than the
+                schedule. Night shift
                 warehouse ops at 3B Logistics. Managing a Chipotle through
                 800+ daily transactions. Leading Dunkin morning rushes.
                 None of it was sales. All of it was volume, pressure, and

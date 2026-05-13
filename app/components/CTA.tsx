@@ -98,8 +98,8 @@ export default function CTA() {
           transition={{ duration: 1, delay: 0.6 }}
           className="mt-24 md:mt-36 pt-8 border-t border-cream/10 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 text-xs font-mono uppercase tracking-[0.18em] text-ink/45"
         >
-          <span>Account Brief. Cursor. 2026.</span>
-          <span>Designed &amp; built solo, for Hex</span>
+          <span>Account Brief. GitLab. 2026.</span>
+          <span>Designed &amp; built solo, for GitLab.</span>
         </motion.div>
       </div>
     </section>

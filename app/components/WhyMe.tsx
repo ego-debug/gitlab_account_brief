@@ -57,8 +57,9 @@ export default function WhyMe() {
 
             <Block num="04" title="Why GitLab">
               <p className="text-lg md:text-xl leading-[1.7] text-ink/85">
-                GitLab is the SDR role I want. Inbound qualification
-                first. BDR seat earned, not assumed. Act 2 named the
+                GitLab is the SDR role I want. Inbound queue and
+                outbound sequences from day one. BDR seat earned, not
+                assumed. Act 2 named the
                 bet I'd be selling against. Speed with quality.
                 Ownership mindset. Customer outcomes. Affirm is what
                 Act 2 looks like inside a real ICP. Duo Agent Platform

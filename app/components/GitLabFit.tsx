@@ -13,8 +13,8 @@ const BUYER_BLOCKS: { label: string; body: React.ReactNode }[] = [
         productivity and the platform underneath it. At Affirm that is
         Daniel Martin, Sr. Director of Engineering for Developer
         Productivity. He wrote the April 2026 blog post and named the
-        pain himself. Above him: Eli Bingham (VP Engineering) and
-        Libor Michalek (President, ex-CTO) sign off on platform spend.
+        pain himself. Above him: Libor Michalek, President and former
+        CTO, who oversees engineering and signs off on platform spend.
       </>
     ),
   },
@@ -49,9 +49,22 @@ const BUYER_BLOCKS: { label: string; body: React.ReactNode }[] = [
       </>
     ),
   },
+  {
+    label: "The next 5",
+    body: (
+      <>
+        Affirm is the template. The shape generalizes. Regulated US
+        public fintechs, 500 to 5,000 engineers, non-platform CI stack
+        (Buildkite, CircleCI, Jenkins), docs scattered across multiple
+        surfaces, agents already in production or moving there. By the
+        end of week 2 I'd have a 20-account list. Starting candidates:
+        Robinhood, Block, SoFi, Coinbase, Upstart.
+      </>
+    ),
+  },
 ];
 
-export default function AndelaFit() {
+export default function GitLabFit() {
   return (
     <section
       id="fit"

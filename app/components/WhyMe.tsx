@@ -38,10 +38,11 @@ export default function WhyMe() {
 
             <Block num="02" title="Builder Experience">
               <p className="text-lg md:text-xl leading-[1.7] text-ink/85">
-                I've shipped two SaaS products solo. Two years of being
-                the only engineer when the work needed three. I know
-                what it feels like when CI is the ceiling, when the
-                docs are scattered, and when one bad commit has no
+                I've shipped three SaaS products solo. One is in the
+                agent-tooling space, live with paid users. Two years
+                of being the only engineer when the work needed three.
+                I know what it feels like when CI is the ceiling, when
+                the docs are scattered, and when one bad commit has no
                 audit trail. That is the seat your customer sits in.
               </p>
             </Block>
@@ -56,14 +57,17 @@ export default function WhyMe() {
 
             <Block num="04" title="Why GitLab">
               <p className="text-lg md:text-xl leading-[1.7] text-ink/85">
-                GitLab is the SDR role I want. Duo Agent Platform GA'd
-                in January and the AWS Bedrock and Vertex AI
-                collaborations landed this year. I research, draft, and
-                structure my work inside Claude every day, including
-                this artifact, the Affirm research, the call, the
-                email. The conversation I'd be having with Daniel is
-                one I already understand. I want to earn this role,
-                earn the AE seat, and build a career here. I'm
+                GitLab is the SDR role I want. Inbound qualification
+                first. BDR seat earned, not assumed. Act 2 named the
+                bet I'd be selling against. Speed with quality.
+                Ownership mindset. Customer outcomes. Affirm is what
+                Act 2 looks like inside a real ICP. Duo Agent Platform
+                GA'd in January. AWS Bedrock and Vertex AI landed this
+                year. I run my prep inside Claude. The Affirm research,
+                the call, the email. All of it from there. The
+                conversation I'd be having with Daniel is one I already
+                understand. I want to earn this role, earn the BDR
+                seat, earn the AE seat, and build a career here. I'm
                 coachable, I take feedback, and I show up.
               </p>
             </Block>

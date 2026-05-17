@@ -6,19 +6,19 @@ import SectionHeader from "./SectionHeader";
 const PRIORITIES = [
   {
     num: "01",
-    body: "Memorize the GitLab pitch during training. Earn team sign-off before going live to buyers. Duo Agent Platform, the AI Gateway and Bedrock/Vertex story, and how the audit trail answers the regulator objection.",
+    body: "Memorize the GitLab pitch during training. Duo Agent Platform. The AI Gateway and the Bedrock or Vertex story. How the audit trail answers the regulator objection. Earn team sign-off before going live to buyers.",
   },
   {
     num: "02",
-    body: "Shadow the top 3 SDRs. Borrow their objection handling and account research word-for-word until I have my own version.",
+    body: "Shadow the top 3 SDRs inside Outreach.io. Borrow their objection handling, their sequence cadence, their account research, word-for-word until I have my own version.",
   },
   {
     num: "03",
-    body: "Once training wraps, get on the phones. Run my first owned sequence anchored on Duo Agent Platform GA and tested against accounts shaped like Affirm. Regulated, Claude-pilled, stuck on a non-platform CI vendor.",
+    body: "Once training wraps, get on the phones. Run my first owned sequence in Outreach.io, anchored on Duo Agent Platform GA. Test it against accounts shaped like Affirm. Regulated, Claude-pilled, stuck on a non-platform CI vendor. Track every SAO, every IQM, every disqual reason from day one.",
   },
   {
     num: "04",
-    body: "Find the 2 or 3 reps and managers I'll learn the most from long term. Earn 15 minutes of coffee or shadow time with each.",
+    body: "Find the 2 or 3 reps and managers I'll learn the most from long term. Earn 15 minutes of coffee or shadow time with each. Map the 12-month line to the BDR seat.",
   },
 ];
 

@@ -6,6 +6,13 @@ import SectionHeader from "./SectionHeader";
 
 const PRODUCTS = [
   {
+    name: "SafeShip.dev",
+    domain: "safeship.dev",
+    url: "https://www.safeship.dev",
+    body: "Regression tests for AI agents. Production failures become assertions that block the next deploy. Live with paid users.",
+    image: "/screenshots/safeship.jpg",
+  },
+  {
     name: "TayibEats.com",
     domain: "tayibeats.com",
     url: "https://tayibeats.com",
@@ -36,7 +43,7 @@ export default function Portfolio() {
           title="What I've Built"
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-16 md:mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-16 md:mb-20">
           {PRODUCTS.map((p, i) => (
             <motion.a
               key={p.name}
@@ -142,11 +149,11 @@ export default function Portfolio() {
           </div>
           <div className="lg:col-span-10">
             <p className="font-pixel font-bold text-2xl md:text-3xl lg:text-4xl leading-[1.25] tracking-[0.02em] uppercase text-ink max-w-4xl">
-              Building these taught me what shipping without an
-              analyst on standby feels like. Half-baked dashboards,
-              gut decisions, questions I couldn't answer fast enough.
-              That's the pain GitLab's buyer lives in. Now I want
-              to be the rep helping them out of it.
+              Three products solo. SafeShip, my latest, catches agent
+              code regressions before they ship. That same audit-trail
+              gap is what's eating Affirm's CI right now. GitLab sells
+              the platform answer. Now I want to be the one selling
+              the fix.
             </p>
           </div>
         </motion.div>

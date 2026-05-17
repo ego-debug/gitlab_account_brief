@@ -1,5 +1,5 @@
 {
-  "name": "gitlab-account-brief",
+  "name": "affirm-brief-for-gitlab",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -10,20 +10,26 @@
   },
   "dependencies": {
     "framer-motion": "^11.11.17",
-    "next": "14.2.18",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
     "autoprefixer": "^10.4.20",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.18",
+    "eslint": "^9",
+    "eslint-config-next": "^16.2.6",
+    "playwright": "^1.60.0",
     "postcss": "^8.4.49",
     "sharp": "^0.34.5",
     "tailwindcss": "^3.4.15",
     "typescript": "^5"
+  },
+  "overrides": {
+    "next": {
+      "postcss": "^8.5.14"
+    }
   }
 }

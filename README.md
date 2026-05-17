@@ -1,16 +1,16 @@
-# Headway — Account Brief
+# Affirm — Account Brief
 
-A custom interactive web brief on Headway, prepared for Andela's SDR opening by Jovan Marrero.
+A custom interactive web brief on Affirm, prepared for GitLab's SDR opening by Jovan Marrero.
 
-Built as a one-page editorial experience — designed to be the alternative to a slide deck.
+Built as a one-page editorial experience — the alternative to a slide deck.
 
 ## Stack
 
-- Next.js 14 (App Router)
-- React 18 + TypeScript
+- Next.js 16 (App Router, Turbopack)
+- React 19 + TypeScript
 - Tailwind CSS 3
 - Framer Motion
-- Inter + Instrument Serif (via `next/font`)
+- Inter + JetBrains Mono (via `next/font`)
 
 ## Run locally
 
@@ -22,36 +22,23 @@ npm run build    # production build
 
 ## Deploy to Vercel
 
-This repo is Vercel-ready. From the project root:
+Vercel-ready. From the project root:
 
 ```bash
 npx vercel        # one-time link + preview
 npx vercel --prod # production deploy
 ```
 
-Or push to a GitHub repo and import it in the Vercel dashboard — no settings needed.
-
-## Swapping in screenshots
-
-Drop the real product screenshots into `/public/screenshots/`:
-
-- `tayibeats.png` — TayibEats homepage
-- `hvaclaunch.png` — HVACLaunch homepage
-
-Then in `app/components/Portfolio.tsx`, replace the `<PlaceholderArt />` block inside each card with:
-
-```tsx
-<img src={p.swap} alt={`${p.name} homepage`} className="absolute inset-0 top-9 w-full h-[calc(100%-2.25rem)] object-cover object-top" />
-```
+Or push to GitHub and import the repo in the Vercel dashboard — no settings needed.
 
 ## Sections
 
-1. Hero — editorial title, kicker, meta
-2. The Headway Account — magazine profile + Tezi acquisition callout
-3. Where Andela Fits — buyer / problem / solution + animated stat trio (66% / 48hr / 30–50%)
-4. The Cold Call — interactive 3-stage playthrough (click-to-advance)
-5. The Email — animated draft reveal in a styled mail client
+1. Hero — title, kicker, meta
+2. The Affirm Account — magazine profile + the April 2026 retool callout
+3. Where GitLab Fits — buyer / pitch / why-fit + animated stat row
+4. Sample Call — interactive 3-stage cold call to Daniel Martin
+5. Sample Email — animated draft reveal in a styled mail client
 6. What I've Built — TayibEats + HVACLaunch with hover states
-7. The Rep — editorial essay
-8. First 30 Days — three-priority plan
-9. Contact — designed CTA
+7. Why I'm The Right Rep — 4-block editorial essay
+8. First 30 Days — four-priority ramp plan
+9. Let's Talk — designed CTA with click-to-copy contact tiles

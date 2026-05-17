@@ -1,7 +1,7 @@
 import ProgressNav from "./components/ProgressNav";
 import Hero from "./components/Hero";
-import HeadwayAccount from "./components/HeadwayAccount";
-import AndelaFit from "./components/AndelaFit";
+import AffirmAccount from "./components/AffirmAccount";
+import GitLabFit from "./components/GitLabFit";
 import ColdCall from "./components/ColdCall";
 import Email from "./components/Email";
 import Portfolio from "./components/Portfolio";
@@ -14,8 +14,8 @@ export default function Page() {
     <main className="relative">
       <ProgressNav />
       <Hero />
-      <HeadwayAccount />
-      <AndelaFit />
+      <AffirmAccount />
+      <GitLabFit />
       <ColdCall />
       <Email />
       <Portfolio />

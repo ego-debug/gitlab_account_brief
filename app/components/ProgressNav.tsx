@@ -72,7 +72,7 @@ export default function ProgressNav() {
             <span className="hidden sm:inline">Account Brief</span>
             <span className="sm:hidden">Brief</span>
             <span className="text-ink/30">/</span>
-            <span className="text-ink truncate">GitLab</span>
+            <span className="text-ink truncate">Affirm</span>
           </div>
           <div className="flex items-center gap-3 sm:gap-4 text-[10px] sm:text-xs font-mono uppercase tracking-[0.16em] sm:tracking-[0.18em] flex-shrink-0">
             <span className="text-ink/40 hidden md:inline">

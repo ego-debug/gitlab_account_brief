@@ -16,7 +16,7 @@ const reveal = {
   },
 };
 
-export default function HeadwayAccount() {
+export default function AffirmAccount() {
   return (
     <section
       id="account"
@@ -42,7 +42,7 @@ export default function HeadwayAccount() {
               variants={reveal}
               className="text-xl md:text-[1.4rem] leading-[1.55] text-ink/85"
             >
-              Affirm is a public BNPL lender on NASDAQ with about 2,400
+              Affirm is a public BNPL lender on NASDAQ with about 2,200
               employees and more than 800 engineers. In February 2026
               they paused engineering for a full week to retool the org
               around agentic AI. They picked Claude Code as the default
@@ -65,7 +65,7 @@ export default function HeadwayAccount() {
             <FactRow label="Stage" value="Public, NASDAQ: AFRM (IPO Jan 2021)" />
             <FactRow label="HQ" value="San Francisco, CA" />
             <FactRow label="CEO" value="Max Levchin (Co-Founder)" />
-            <FactRow label="Scale" value="~2,400 employees, 800+ engineers" />
+            <FactRow label="Scale" value="~2,200 employees, 800+ engineers" />
             <FactRow label="Merchants" value="Amazon, Shopify, Walmart, Target" />
             <FactRow label="AI moment" value="60%+ of PRs now agent-written. April 2026." />
           </motion.aside>
@@ -127,11 +127,14 @@ export default function HeadwayAccount() {
               Affirm is a regulated public lender under CFPB and state
               scrutiny. SOX, PCI-DSS, and state lending licenses already
               demand an audit on every change. Now 60 percent of their
-              code changes are written by an agent. My read: the
-              February decision was the right one, but the wrappers
-              around it are the wrong ones. They need a platform that
-              keeps Claude, replaces Buildkite, unifies the docs, and
-              gives a regulator one place to look.
+              code changes are written by an agent. On the Q3 2026
+              earnings call Levchin said it plain: no AI-related
+              layoffs, full stop. The 800 engineers stay. Agents
+              augment them. My read: the February decision was the
+              right one, but the wrappers around it are the wrong
+              ones. They need a platform that keeps Claude, replaces
+              Buildkite, unifies the docs, and gives a regulator one
+              place to look.
             </p>
           </div>
         </motion.div>

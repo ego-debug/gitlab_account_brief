@@ -1,6 +1,6 @@
 # Project Template — Account Brief / Editorial Web Doc
 
-> **This repo is a template.** It started as a custom interactive account brief on **Headway** for an Andela SDR application. It is now intentionally maintained as a reusable scaffold for future projects — different account briefs, different employers, or any other long-form editorial single-page web doc that requires a research-driven, voice-clean, AI-tell-free output.
+> **This repo is a template.** It is currently configured as a custom interactive account brief on **Affirm** for a **GitLab** SDR application, and is intentionally maintained as a reusable scaffold for future projects — different account briefs, different employers, or any other long-form editorial single-page web doc that requires a research-driven, voice-clean, AI-tell-free output.
 >
 > **If you're a Claude session starting fresh on this repo:**
 > - Treat this CLAUDE.md as the source of truth for voice, structure, and AI-tell rules.
@@ -28,7 +28,7 @@
 
 A one-page interactive brief that demonstrates an SDR candidate's research, outbound craft, and personal positioning for a specific account at a specific employer. Built as the alternative to a slide deck.
 
-**Originally built for:** Andela SDR opening, targeting Headway as the sample account
+**Currently configured for:** GitLab SDR opening, targeting Affirm as the sample account
 **Live at:** Vercel deploy from `main` branch
 **Repo visibility:** Public on GitHub (so commit messages and code are visible)
 
@@ -74,8 +74,8 @@ Located in `app/components/`:
 | Section | Component | What it does | Stays per new account? |
 |---|---|---|---|
 | §01 Hero | `Hero.tsx` | Title page, name, tagline, scroll cue | Update title only |
-| §02 Account Research | `HeadwayAccount.tsx` | Research synthesis on the target account | **Rewrite per account** |
-| §03 Where [Employer] Fits | `AndelaFit.tsx` | Articulate employer's value prop, why this account is a fit, stat row | Update employer name + buyer/pitch/why-fit prose |
+| §02 Account Research | `AffirmAccount.tsx` (rename per account) | Research synthesis on the target account | **Rewrite per account** |
+| §03 Where [Employer] Fits | `GitLabFit.tsx` (rename per employer) | Articulate employer's value prop, why this account is a fit, stat row | Update employer name + buyer/pitch/why-fit prose |
 | §04 Sample Call | `ColdCall.tsx` | Interactive 3-stage cold call playthrough | **Rewrite script per account** |
 | §05 Sample Email | `Email.tsx` | Animated email mockup as the rep | **Rewrite per account** |
 | §06 What I've Built | `Portfolio.tsx` | Personal SaaS portfolio with screenshots | Stays (personal projects don't change) |
@@ -102,7 +102,7 @@ These are the user's preferences. Hold these unless explicitly overridden.
 ### Concrete > abstract
 - Specific numbers > vague qualifiers ("by end of week 2" not "deeply enough")
 - Real activities > corporate-speak ("walking new hires through their first shifts and giving direct feedback when needed" not "owning training, performance check-ins, and direct accountability conversations")
-- Named outcomes > generic claims ("Andela ships a vetted senior engineer shortlist in 48 hours" not "Andela helps with hiring")
+- Named outcomes > generic claims ("Carrefour cut $350K/year and halved time-to-market by consolidating to GitLab" not "GitLab helps with DevOps")
 
 ### Short, declarative sentences for personal voice
 - 3-5 sentence paragraphs. Each sentence does one thing.
@@ -255,14 +255,14 @@ Avoid: "deeply enough," "track everything," "real relationships," "build daily a
 When starting a new brief on a different account / for a different employer:
 
 1. **Branch the repo** (or fork): `git checkout -b new-account/[name]`
-2. **Update §02** (`HeadwayAccount.tsx` — rename to `AccountResearch.tsx` if you want): rewrite the lead, the side facts, the callout panel, the closing
-3. **Update §03** (`AndelaFit.tsx`): rewrite the buyer / pitch / why-fit blocks. Update the stat row if employer's stats differ.
+2. **Update §02** (`AffirmAccount.tsx` — rename to `[Account]Account.tsx`): rewrite the lead, the side facts, the callout panel, the closing
+3. **Update §03** (`GitLabFit.tsx` — rename to `[Employer]Fit.tsx`): rewrite the buyer / pitch / why-fit blocks. Update the stat row if employer's stats differ.
 4. **Update §04** (`ColdCall.tsx`): new prospect name, new trigger event in Stage 01, new pain framing in Stage 02, same Stage 03 pattern
 5. **Update §05** (`Email.tsx`): new From/To, new subject, new body. The 5-paragraph structure stays.
-6. **Update §07 Block 04 only** (`WhyMe.tsx`): "Why [new employer]" replaces "Why Andela." Other 3 blocks stay.
+6. **Update §07 Block 04 only** (`WhyMe.tsx`): "Why [new employer]" replaces the previous employer. Other 3 blocks stay.
 7. **Update §08** (`FirstThirty.tsx`): change "[employer]'s ICP" reference in priority 01.
 8. **Update SEO** in `app/layout.tsx`: title, OG title.
-9. **Update OG image** in `app/opengraph-image.tsx`: change "For Andela" reference.
+9. **Update OG image** in `app/opengraph-image.tsx`: change the "For [employer]" reference and the big account name text.
 10. **Run scripts:** `npm run build` to verify, `node scripts/compress-screenshots.mjs` if new screenshots.
 11. **Git commit + push.** Vercel auto-deploys.
 

@@ -36,7 +36,7 @@ export default async function Icon() {
           letterSpacing: "-0.02em",
         }}
       >
-        C
+        A
       </div>
     ),
     {
